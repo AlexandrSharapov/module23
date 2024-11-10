@@ -7,4 +7,4 @@ while index < len(my_list): #индекс меньше длины списка
         index += 1 #используется след. индекс
         continue
     print(my_list[index]) 
-    index += 1 
+    index += 1 #используется след. индекс иначе бесконечноть
